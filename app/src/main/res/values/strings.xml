@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vallescondido</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgotten_pass">¿Haz olvidado tu contraseña?</string>
+    <string name="dummy_text">Solo soy un texto de prueba</string>
+    <string name="user">Usuario</string>
+    <string name="password">password</string>
+</resources>

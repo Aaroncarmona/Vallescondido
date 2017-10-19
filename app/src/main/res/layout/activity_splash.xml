@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vallescondido.a2rp.vallescondido.ui.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_valle"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:id="@+id/llConteiner"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark"
+        android:alpha="0.9"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/ivLogoVallescondido"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_vallelogo_letras"
+            android:layout_marginBottom="15dp"
+            android:tint="@android:color/white"
+            />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
